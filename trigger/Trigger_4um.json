@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_4um",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline_4um",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 2,
+				"startTime": "2025-07-09T06:55:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

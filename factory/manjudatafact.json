@@ -1,0 +1,9 @@
+{
+	"name": "manjudatafact",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9ba553ef-f679-4ebf-83c4-f9f55579ae7d",
+		"tenantId": "c493b23e-a23a-470b-a650-d48e1cdf25c4"
+	}
+}
